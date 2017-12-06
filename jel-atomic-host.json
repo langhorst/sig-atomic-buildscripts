@@ -1,0 +1,7 @@
+{
+    "comment": "JEL addons to CentOS adaptation of RHEL Atomic host",
+    "osname": "jel-atomic-host",
+    "ref": "jel-atomic-host/7/x86_64/standard",
+    "include": "centos-atomic-host.json",
+    "packages": ["vim"]
+}
