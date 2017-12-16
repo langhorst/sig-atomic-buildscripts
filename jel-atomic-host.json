@@ -3,5 +3,5 @@
     "osname": "jelatomic",
     "ref": "jelatomic/build/master",
     "include": "centos-atomic-host.json",
-    "packages": ["vim"]
+    "packages": ["vim","wget"]
 }
