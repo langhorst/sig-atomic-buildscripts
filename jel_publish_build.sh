@@ -41,7 +41,7 @@ then
   exit
 fi
 
-checksum=$(ostree --repo=/srv/jelatomic-build rev-parse jelatomic/build/master)
+checksum=$(ostree --repo=${BuildRepo} rev-parse ${BuildBranch})
 
 echo "Subject: ${Subject}"
 echo "Message: ${Message}"
